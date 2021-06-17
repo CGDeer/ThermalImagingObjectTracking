@@ -19,7 +19,7 @@ This project will use the 2021a Update 3 MATLAB installation.  To install it:
 1) sign in using your MATLAB account on https://matlab.mathworks.com/.  
 2) Click on 'Install MATLAB on your computer" located at the top right of your screen.
 3) Follow the onscreen instructions.
---When you get to the screen asking which product you want to install, make sure that the following are selected: MATLAB, Computer Vision Toolbox, Data Acquisition Toolbox, Image Acquisition Toolbox, and the Image Processing Toolbox. (Note that under these settings you will need 10.15 GB available for the installation of the files).
+--When you get to the screen asking which product you want to install, make sure that the following are selected: MATLAB, Computer Vision Toolbox, Control System Toolbox, Data Acquisition Toolbox, Image Acquisition Toolbox, and the Image Processing Toolbox. 
 
 ## Using MATLAB on a local windows machine:
 1) Launch your MATLAB instance from your start menu
