@@ -13,18 +13,24 @@ The script will create a csv file with the filename and event start time and eve
 ## Programs
 MATLAB (2021a Update 3) for running code locally or MATLAB (2020b) if running MATLAB interactively on the PUMA HPC
 
-The following two sections apply to running MATLAB locally:
+The following three sections apply to running MATLAB locally:
 ## MATLAB Installation (for desktop or laptop deployments, on a Windows machine)
 This project will use the 2021a Update 3 MATLAB installation.  To install it: 
 1) sign in using your MATLAB account on https://matlab.mathworks.com/.  
 2) Click on 'Install MATLAB on your computer" located at the top right of your screen.
 3) Follow the onscreen instructions.
---When you get to the screen asking which product you want to install, make sure that the following are selected: MATLAB, Computer Vision Toolbox, Control System Toolbox, Data Acquisition Toolbox, Image Acquisition Toolbox, and the Image Processing Toolbox. 
+--When you get to the screen asking which product you want to install, make sure that the following are selected: MATLAB, Computer Vision Toolbox, Control System Toolbox, Data Acquisition Toolbox, Image Acquisition Toolbox, Image Processing Toolbox, Sensor Fusion and Tracking Toolbox. 
+
+## In case of forgotten toolboxes: 
+1) run the installer again
+2) follow the instructions until you get to the products section
+3) select the missing toolboxes
 
 ## Using MATLAB on a local windows machine:
 1) Launch your MATLAB instance from your start menu
-2) (This step needs to only be done once) Set you local path to include the folder that you data resides in and the folder that the script.m (to be named later) resides in.  
+2) This step needs to only be done once) Set you local path to include the folder that you data resides in and the folder that the script.m (to be named later) resides in.  
 3) Run the script from the MATLAB command line
+
 
 The following two section apply to running MATLAB on the open on demand interactive terminal for MATLAB on the PUMA HPC.
 ## Logging in to the HPC:
